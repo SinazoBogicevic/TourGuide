@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/icon_layout"
+    android:layout_marginBottom="8dp">
+    <ImageView
+        android:id="@+id/icon_pool"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        app:srcCompat="@drawable/ic_favorite"
+        android:tint="@color/black"
+        android:contentDescription="@string/pool_icon"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginEnd="@dimen/marginRight" />
+    <ImageView
+        android:id="@+id/icon_food"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        app:srcCompat="@drawable/ic_favorite"
+        android:tint="@color/black"
+        android:contentDescription="@string/restaurant_icon"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginEnd="@dimen/marginRight" />
+    <ImageView
+        android:id="@+id/icon_wifi"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        app:srcCompat="@drawable/ic_favorite"
+        android:tint="@color/black"
+        android:contentDescription="@string/wifi_icon"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginEnd="@dimen/marginRight" />
+    <ImageView
+        android:id="@+id/icon_family_friendly"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        app:srcCompat="@drawable/ic_favorite"
+        android:tint="@color/black"
+        android:contentDescription="@string/family_friendly_icon"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginEnd="@dimen/marginRight" />
+    <ImageView
+        android:id="@+id/icon_accessibility"
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        app:srcCompat="@drawable/ic_favorite"
+        android:tint="@color/black"
+        android:contentDescription="@string/accessibility_icon" />
+
+</LinearLayout>

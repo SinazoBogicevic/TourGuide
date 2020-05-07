@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="email">user@email.com</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="user_profile">user profile picture</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">description</string>
+    <string name="icons">images</string>
+    <string name="contentDescription">picture</string>
+    <string name="pool_icon">pool icon</string>
+    <string name="restaurant_icon">resturaunt icon</string>
+    <string name="wifi_icon">wifi icon</string>
+    <string name="family_friendly_icon">family friendly icon</string>
+    <string name="accessibility_icon">accessibility icon</string>
+    <string name="no_connection">No internet connection</string>
+    <string name="title">Title</string>
+</resources>

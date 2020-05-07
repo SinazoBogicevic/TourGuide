@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHeigth"
+        android:contentDescription="@string/user_profile"
+        app:srcCompat="@drawable/ic_person_black_24dp"
+        android:background="@drawable/profile_bubble"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="@dimen/marginRight"
+        android:layout_marginStart="@dimen/marginRight" />
+
+    <TextView
+        android:id="@+id/drawer_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/sizeText"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginStart="@dimen/marginLeft" />
+</LinearLayout>
